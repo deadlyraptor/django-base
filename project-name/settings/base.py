@@ -95,7 +95,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 
 # Static files (CSS, JavaScript, Images)
-STATIC_ROOT = BASE_DIR / 'static_files' #whitenoise
+STATIC_ROOT = BASE_DIR / 'static' #whitenoise
 STATIC_URL = '/static/'
 
 # Media
